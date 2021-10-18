@@ -10,6 +10,6 @@ yum install -y python-pip
 pip3 install flask
 
 2. copy 代码至本地
-3. 执行代码 python3 alert2webCom.py
+3. 执行代码 python3 alert2weCom.py
 
 
