@@ -13,3 +13,4 @@ pip3 install flask
 3. 执行代码 python3 alert2weCom.py
 4. 即可发送告警
 
+关于 Grafana ALert功能使用webhook 教程直接搜索即可。
