@@ -11,7 +11,9 @@ yum install -y python-pip
 pip3 install flask
 
 4.copy 代码至本地
+
 5.执行代码 python3 alert2weCom.py
-6.即可发送告警
+
+6.grafana 配置webhook 即可发送告警
 
 关于 Grafana ALert功能使用webhook 教程直接搜索即可。
