@@ -29,10 +29,6 @@ def message():
     }
 }
     msges=(bytes(json.dumps(values), 'utf-8'))
-    '''return msges'''
-    '''return  url'''
-    '''import send'''
-    '''send_message(url,token,msges)'''
     send_url = '%s/cgi-bin/webhook/send?key=%s' % (url,token)
     respone=urllib.request.urlopen(urllib.request.Request(url=send_url, data=msges)).read()
 
