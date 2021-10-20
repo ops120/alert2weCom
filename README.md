@@ -20,4 +20,11 @@ pip3 install flask
 
 企微告警示例：
 
+postman测试代码
+
+![image](https://github.com/ops120/alert2weCom/blob/main/postman%E6%B5%8B%E8%AF%95.png)
+
+
+企微显示的结果标例：
+
 ![image](https://github.com/ops120/alert2weCom/blob/main/%E4%BC%81%E5%BE%AE%E5%91%8A%E8%AD%A6%E7%A4%BA%E4%BE%8B.png)
