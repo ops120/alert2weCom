@@ -14,13 +14,13 @@ def message():
 
     des = request.json.get("message").strip()
     title = request.json.get("ruleName").strip()
-
+    state = request.json.get("state").strip()     #增加告警状态
     values = {
      "msgtype": "news",
      "news": {
         "articles" : [
             {
-                "title" : title,
+                "title" : title + "[" + state +"]",   #增加告警状态
                 "description" : des,
                 "url" : "需要进行发送的link",
                 "picurl" : "需要进行发送的图片link"
