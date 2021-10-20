@@ -17,3 +17,7 @@ pip3 install flask
 6.grafana 配置webhook 即可发送告警
 
 关于 Grafana ALert功能使用webhook 教程直接搜索即可。
+
+企微告警示例：
+
+![image](https://github.com/ops120/alert2weCom/blob/main/%E4%BC%81%E5%BE%AE%E5%91%8A%E8%AD%A6%E7%A4%BA%E4%BE%8B.png)
