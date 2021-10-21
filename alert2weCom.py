@@ -36,4 +36,4 @@ def message():
 
 
 if __name__ == '__main__':
-    app.run(host = '0.0.0.0', port = 9988)
+    app.run(host = '0.0.0.0', port = 9988)   #告警服务器连接 http://本机IP:9988
